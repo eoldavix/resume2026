@@ -3,7 +3,7 @@ name: Build and Deploy Resume
 on:
   push:
     branches: [main]
-    paths: [resume.yaml]
+    paths: [assets/resume.yaml]
 
 permissions:
   contents: read
