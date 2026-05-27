@@ -5,9 +5,10 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+ASSETS_DIR = BASE_DIR / "assets"
 TEMPLATES_DIR = BASE_DIR / "templates"
 DIST_DIR = BASE_DIR / "dist"
-YAML_PATH = BASE_DIR / "resume.yaml"
+YAML_PATH = ASSETS_DIR / "resume.yaml"
 
 ACCENT = "#eab308"
 ACCENT_HOVER = "#facc15"
@@ -70,9 +71,13 @@ def build():
 
     DIST_DIR.mkdir(exist_ok=True)
 
-    avatar_src = BASE_DIR / "avatar.png"
+    avatar_src = ASSETS_DIR / "avatar.png"
     if avatar_src.exists():
         shutil.copy2(str(avatar_src), str(DIST_DIR / "avatar.png"))
+
+    favicon_src = ASSETS_DIR / "favicon"
+    if favicon_src.exists():
+        shutil.copytree(str(favicon_src), str(DIST_DIR / "favicon"), dirs_exist_ok=True)
 
     html = env.get_template("base.html.j2").render(
         **context, accent=ACCENT, accent_hover=ACCENT_HOVER

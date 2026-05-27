@@ -6,7 +6,7 @@
 
 build: .venv/bin/python dist/index.html dist/style.css
 
-dist/index.html dist/style.css: resume.yaml src/build.py templates/base.html.j2 templates/style.css.j2 $(wildcard templates/sections/*.html.j2)
+dist/index.html dist/style.css: assets/resume.yaml src/build.py templates/base.html.j2 templates/style.css.j2 $(wildcard templates/sections/*.html.j2)
 	.venv/bin/python src/build.py
 
 serve: build
