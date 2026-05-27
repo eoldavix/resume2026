@@ -13,6 +13,15 @@ ACCENT = "#eab308"
 ACCENT_HOVER = "#facc15"
 
 
+def format_date(value):
+    if not value or value.lower() == "present":
+        return value or ""
+    parts = value.split("-")
+    if len(parts) == 3:
+        return f"{parts[2]}/{parts[1]}/{parts[0]}"
+    return value
+
+
 def load_yaml(path):
     with open(path) as f:
         return yaml.safe_load(f)
@@ -57,6 +66,7 @@ def build():
     context = prepare_data(raw)
 
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
+    env.filters["date"] = format_date
 
     DIST_DIR.mkdir(exist_ok=True)
 

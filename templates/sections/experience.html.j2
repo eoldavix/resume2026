@@ -5,7 +5,7 @@
   <div class="job-card">
     <div class="job-header">
       <h3 class="job-role">{{ job.role }}</h3>
-      <span class="job-dates">{{ job.start_date }} – {{ job.end_date }}</span>
+      <span class="job-dates">{{ job.start_date | date }} – {{ job.end_date | date }}</span>
     </div>
     <p class="job-company">{{ job.company }}</p>
     <p class="job-location">{{ job.location }}</p>

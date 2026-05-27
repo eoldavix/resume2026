@@ -3,8 +3,12 @@
   <h1 class="name">{{ personal_information.full_name }}</h1>
   <p class="title">{{ profile.title }}</p>
   <div class="contact">
+    {% if personal_information.contact.email %}
     <span>{{ personal_information.contact.email }}</span>
+    {% endif %}
+    {% if personal_information.contact.phone %}
     <span>{{ personal_information.contact.phone }}</span>
+    {% endif %}
     <a href="{{ personal_information.contact.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
     <a href="{{ personal_information.contact.website }}" target="_blank" rel="noopener">davidcarrera.es</a>
   </div>
