@@ -1,0 +1,300 @@
+cv:
+  personal_information:
+    full_name: "David Eduardo Carrera del Castillo"
+    nationality: "Spanish"
+    birth_date: "1982-04-06"
+    birth_place: "Seville, Spain"
+    gender: "Male"
+    contact:
+      phone: "+34 625045555"
+      email: "dcarreracas@gmail.com"
+      linkedin: "davidcarreradelcastillo"
+      website: "https://davidcarrera.es"
+    address:
+      street: "C/ Juan Macho, 6, Bl.1 Bajo B"
+      postal_code: "41300"
+      city: "San José de la Rinconada"
+      province: "Seville"
+      country: "Spain"
+
+  profile:
+    title: "Senior DevOps / Release Engineer"
+    summary: >
+      Senior DevOps and Release Engineer with 15+ years of experience in Linux systems
+      administration, CI/CD automation, AWS Cloud, infrastructure as code, Kubernetes,
+      monitoring and production support. Strong background in automation, observability,
+      cloud-native platforms and high-availability enterprise environments.
+
+  skills:
+    devops_ci_cd:
+      - Jenkins
+      - CloudBees
+      - GitHub Actions
+      - SonarQube
+      - Artifactory
+      - SDLC
+      - CI/CD Pipelines
+      - Release Engineering
+      - GitOps
+    cloud_and_containers:
+      - AWS
+      - Docker
+      - Kubernetes
+      - OpenShift
+    infrastructure_as_code:
+      - Terraform
+      - Ansible
+      - Puppet
+      - Chef
+      - Bash
+      - PowerShell
+      - Python
+      - Groovy
+      - Infrastructure Automation
+      - Configuration Management
+    monitoring_and_observability:
+      - Grafana
+      - Prometheus
+      - Zabbix
+      - PRTG
+      - Splunk
+      - Pingdom
+      - Incident Response
+      - Root Cause Analysis
+    operating_systems:
+      - Debian
+      - RedHat
+      - SUSE
+      - Windows Server
+      - Apache
+      - Nginx
+      - Tomcat
+    databases:
+      - Oracle
+      - PostgreSQL
+      - MySQL
+      - SQL Server
+      - MongoDB
+
+  experience:
+    - company: "Ixxus Spain / Copyright Clearance Center"
+      location: "Seville, Spain"
+      role: "Senior DevOps / Release Engineer"
+      start_date: "2019-05-05"
+      end_date: "present"
+      sector: "Professional, scientific and technical activities"
+      website: "https://copyright.com"
+      responsibilities:
+        - "Managed CI/CD deployment processes across multiple production environments"
+        - "Automated deployment and operational workflows"
+        - "Maintained high availability SaaS platforms in 24/7 environments"
+        - "Participated in incident management and root cause analysis"
+        - "Managed observability platforms including Splunk, Prometheus and Zabbix"
+        - "Collaborated with development, QA and operations teams"
+        - "Performed software releases across multiple environments"
+        - "Managed JIRA administration and operational tooling"
+      technologies:
+        - Jenkins
+        - Chef
+        - Python
+        - Groovy
+        - Ansible
+        - Terraform
+        - AWS
+        - GitHub
+        - Splunk
+        - PRTG
+        - Pingdom
+        - Prometheus
+        - JIRA
+
+    - company: "CIVIR Consultoría Integración y Virtualización"
+      location: "Madrid, Spain"
+      role: "DevOps Analyst"
+      start_date: "2018-04-27"
+      end_date: "2019-05-11"
+      projects:
+        - name: "Telefónica Soluciones"
+          responsibilities:
+            - "Developed Puppet modules for middleware platforms"
+            - "Worked with Jenkins, GitLab, Docker and Ansible"
+            - "Automated middleware deployment and configuration"
+        - name: "Santander Global Tech Cloud Competence Center"
+          responsibilities:
+            - "Developed Flask APIs for CloudBees Jenkins and GitHub Enterprise"
+            - "Automated Jenkins provisioning and GitHub organization management"
+            - "Implemented CI pipelines with SonarQube"
+            - "Managed Docker image delivery and OpenShift deployments"
+      technologies:
+        - Python
+        - Flask
+        - Swagger
+        - MongoDB
+        - Jenkins
+        - CloudBees
+        - GitHub Enterprise
+        - Docker
+        - OpenShift
+        - SonarQube
+        - GitLab
+        - Ansible
+        - Puppet
+
+    - company: "Amaris"
+      location: "Barcelona, Spain"
+      role: "Senior Consultant"
+      start_date: "2017-08-16"
+      end_date: "2018-04-27"
+      client: "ITnow (CaixaBank Group)"
+      responsibilities:
+        - "Developed Python applications for RHEL environments"
+        - "Administered IBM BigFix platform"
+        - "Managed enterprise infrastructure systems"
+      technologies:
+        - Python
+        - RHEL
+        - IBM BigFix
+        - Linux Administration
+
+    - company: "Tier1 S.L."
+      location: "Camas, Seville, Spain"
+      role: "Senior Systems and Networks Administrator"
+      start_date: "2017-07-08"
+      end_date: "2017-08-08"
+      responsibilities:
+        - "Installed and configured Ceph clusters"
+        - "Implemented MariaDB Galera clusters"
+        - "Configured FreePBX clustering with Pacemaker and Corosync"
+      technologies:
+        - Ceph
+        - Debian
+        - SUSE
+        - MariaDB
+        - Galera
+        - Pacemaker
+        - Corosync
+        - Fortinet
+
+    - company: "Unterhalt und Dienst Ibérica S.L.U."
+      location: "Seville, Spain"
+      role: "Systems Analyst / GNU/Linux Systems Programmer"
+      start_date: "2012-01-01"
+      end_date: "2017-06-30"
+      responsibilities:
+        - "Designed automated server deployment tools"
+        - "Developed Python and Bash automation tools"
+        - "Administered LDAP, DNS, Apache, Squid and DHCP services"
+        - "Supported educational infrastructure across Andalusia"
+      technologies:
+        - Linux
+        - Debian
+        - Python
+        - Bash
+        - LDAP
+        - Apache
+        - MySQL
+        - Bind9
+        - Squid
+        - DHCP
+
+    - company: "Compusof Service Solutions S.L."
+      location: "Seville, Spain"
+      role: "Systems Operator - Service Desk"
+      start_date: "2010-03-02"
+      end_date: "2011-12-31"
+      responsibilities:
+        - "Provided support for Linux educational environments"
+        - "Maintained Debian servers and networking infrastructure"
+      technologies:
+        - Linux
+        - Debian
+        - Python
+        - Bash
+        - LDAP
+        - Apache
+        - MySQL
+
+    - company: "i3 software & business S.L."
+      location: "Seville, Spain"
+      role: "DBA Oracle & System Administrator"
+      start_date: "2008-05-27"
+      end_date: "2010-01-14"
+      responsibilities:
+        - "Managed Oracle databases and Linux servers"
+        - "Developed PL/SQL automation scripts"
+        - "Implemented Nagios monitoring systems"
+        - "Participated in ISO 27001 implementation"
+      technologies:
+        - Oracle
+        - PL/SQL
+        - Nagios
+        - Bash
+        - Linux
+        - Subversion
+
+    - company: "Desarrollo de Teleservicios S.L."
+      location: "Seville, Spain"
+      role: "System Administrator"
+      start_date: "2007-03-07"
+      end_date: "2008-05-26"
+      responsibilities:
+        - "Administered Linux and Windows Server infrastructures"
+        - "Managed Apache, MySQL, DNS and Active Directory services"
+        - "Developed Bash automation scripts"
+      technologies:
+        - Linux
+        - Windows Server
+        - VMware
+        - Apache
+        - MySQL
+        - Bash
+        - Active Directory
+
+  education:
+    - degree: "Higher Technician in Computer Systems Administration"
+      institution: "I.E.S Julio Verne"
+      location: "Seville, Spain"
+      start_date: "2005-07-31"
+      end_date: "2007-04-30"
+
+    - degree: "Scientific Baccalaureate (Technology Branch)"
+      institution: "I.E.S. San José de la Rinconada"
+      location: "San José de la Rinconada, Seville, Spain"
+      start_date: "1998-07-31"
+      end_date: "2000-07-31"
+
+  languages:
+    spanish:
+      level: "Native"
+    english:
+      listening: "B2"
+      reading: "B2"
+      writing: "B2"
+      spoken_production: "B2"
+      spoken_interaction: "B2"
+
+  certifications: []
+
+  soft_skills:
+    - Ownership
+    - Collaboration
+    - Problem-solving
+    - Operational excellence
+    - Cross-functional collaboration
+    - Technical coordination
+    - Distributed team collaboration
+
+  achievements:
+    - "Supported high-availability SaaS platforms in 24/7 environments"
+    - "Reduced manual operational effort through automation"
+    - "Improved operational reliability with infrastructure automation"
+    - "Enhanced incident response efficiency using observability tooling"
+    - "Reduced configuration drift using Infrastructure as Code"
+    - "Streamlined enterprise software release processes"
+    - "Supported AWS, Docker and Kubernetes deployment strategies"
+
+  additional_information:
+    availability_notice: "30 days"
+    own_vehicle: true
+    driving_license:
+      - "B"

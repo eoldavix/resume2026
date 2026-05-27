@@ -1,0 +1,43 @@
+{% if experience %}
+<section class="section experience">
+  <h2 class="section-title">Experience</h2>
+  {% for job in experience %}
+  <div class="job-card">
+    <div class="job-header">
+      <h3 class="job-role">{{ job.role }}</h3>
+      <span class="job-dates">{{ job.start_date }} – {{ job.end_date }}</span>
+    </div>
+    <p class="job-company">{{ job.company }}</p>
+    <p class="job-location">{{ job.location }}</p>
+    {% if job.responsibilities %}
+    <ul class="responsibilities">
+      {% for item in job.responsibilities %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if job.projects %}
+    <div class="projects">
+      {% for project in job.projects %}
+      <div class="project">
+        <h4 class="project-name">{{ project.name }}</h4>
+        <ul class="responsibilities">
+          {% for item in project.responsibilities %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if job.technologies %}
+    <div class="tech-tags">
+      {% for tech in job.technologies %}
+      <span class="tag tech-tag">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

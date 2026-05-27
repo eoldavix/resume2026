@@ -1,0 +1,11 @@
+<header class="header">
+  <img src="avatar.png" alt="{{ personal_information.full_name }}" class="avatar">
+  <h1 class="name">{{ personal_information.full_name }}</h1>
+  <p class="title">{{ profile.title }}</p>
+  <div class="contact">
+    <span>{{ personal_information.contact.email }}</span>
+    <span>{{ personal_information.contact.phone }}</span>
+    <a href="{{ personal_information.contact.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="{{ personal_information.contact.website }}" target="_blank" rel="noopener">davidcarrera.es</a>
+  </div>
+</header>

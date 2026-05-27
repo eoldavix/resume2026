@@ -1,0 +1,12 @@
+{% if education %}
+<section class="section education">
+  <h2 class="section-title">Education</h2>
+  {% for edu in education %}
+  <div class="education-item">
+    <h3>{{ edu.degree }}</h3>
+    <p>{{ edu.institution }}{% if edu.location %}, {{ edu.location }}{% endif %}</p>
+    <span class="date-range">{{ edu.start_date }} – {{ edu.end_date }}</span>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

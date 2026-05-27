@@ -1,0 +1,13 @@
+{% if languages_list %}
+<section class="section languages">
+  <h2 class="section-title">Languages</h2>
+  <div class="lang-list">
+    {% for lang in languages_list %}
+    <div class="lang-item">
+      <span class="lang-name">{{ lang.name }}</span>
+      <span class="lang-level">{{ lang.level }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

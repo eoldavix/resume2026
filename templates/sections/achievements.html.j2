@@ -1,0 +1,10 @@
+{% if achievements %}
+<section class="section achievements">
+  <h2 class="section-title">Key Achievements</h2>
+  <ul class="achievement-list">
+    {% for achievement in achievements %}
+    <li>{{ achievement }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

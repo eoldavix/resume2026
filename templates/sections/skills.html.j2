@@ -1,0 +1,17 @@
+{% if skills_list %}
+<section class="section skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    {% for category in skills_list %}
+    <div class="skill-category">
+      <h3 class="category-title">{{ category.name }}</h3>
+      <div class="skill-tags">
+        {% for skill in category.tools %}
+        <span class="tag">{{ skill }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
