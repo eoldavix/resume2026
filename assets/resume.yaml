@@ -2,15 +2,12 @@ cv:
   personal_information:
     full_name: "David Eduardo Carrera del Castillo"
     nationality: "Spanish"
-    birth_date: "1982-04-06"
     birth_place: "Seville, Spain"
     gender: "Male"
     contact:
       linkedin: "davidcarreradelcastillo"
       website: "https://davidcarrera.es"
     address:
-      street: "C/ Juan Macho, 6, Bl.1 Bajo B"
-      postal_code: "41300"
       city: "San José de la Rinconada"
       province: "Seville"
       country: "Spain"
