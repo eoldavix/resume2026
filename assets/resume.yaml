@@ -72,11 +72,27 @@ cv:
       - MongoDB
 
   experience:
+    - company: "Apipana"
+      location: "Seville, Spain"
+      role: "DevOps Engineer"
+      start_date: "2026-09-01"
+      end_date: "present"
+      sector: "Engineering"
+      website: "https://apipana.io"
+      responsibilities:
+        - "Onboarding!!! 🥳"
+      technologies:
+        - ArgoCD
+        - Terraform
+        - Openstack
+        - Kubernetes
+        - Ansible
+
     - company: "Ixxus Spain / Copyright Clearance Center"
       location: "Seville, Spain"
       role: "Senior DevOps / Release Engineer"
       start_date: "2019-05-05"
-      end_date: "present"
+      end_date: "2026-08-30"
       sector: "Professional, scientific and technical activities"
       website: "https://copyright.com"
       responsibilities:
